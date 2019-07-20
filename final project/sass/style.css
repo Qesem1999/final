@@ -1,0 +1,552 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* li {
+  list-style: none;
+}
+
+.header-top {
+  background-color: #2f3967;
+  height: 40px;
+  line-height: 50px;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 41% 100%, 28% 4%, 0 4%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 100%, 41% 100%, 28% 4%, 0 4%, 0 0);
+}
+
+.header-top .height {
+  height: 100%;
+}
+
+.header-top .header-top-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-top .header-top-content p {
+  margin-left: 5px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.header-top i {
+  color: white;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.header-top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 85px;
+  margin: 0;
+}
+
+.header-top ul li {
+  color: white;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.header-top ul li:hover a i {
+  color: #ee3131;
+}
+
+.row.middle {
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-wrapper {
+  height: 50px;
+  width: 200px;
+}
+
+.brand img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact-holder ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-holder ul p {
+  margin-bottom: 0;
+}
+
+.contact-holder ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-holder ul li span {
+  margin-right: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-holder ul li span i {
+  font-size: 1.5em;
+  color: red;
+  -webkit-transform: rotate(-29deg);
+          transform: rotate(-29deg);
+}
+
+.contact-holder ul li span.letter i {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.contact-holder ul .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clip {
+  background-color: #ee3131;
+}
+
+.clip .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.clip .cart {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.clip .cart a {
+  font-size: 25px;
+  color: white;
+}
+
+.clip .cart span {
+  font-size: 10px;
+  background-color: white;
+  position: relative;
+  right: 10px;
+  border-radius: 50px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0px 4px;
+}
+
+.clip .navbottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clip .navbottom .dropdown .menu {
+  display: none;
+}
+
+.clip .navbottom .dropdown:hover .menu {
+  display: block;
+}
+
+.clip .navbottom li {
+  height: 100%;
+}
+
+.clip .navbottom li a {
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.clip .navbottom li a::before {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.clip .navbottom li a:hover {
+  text-decoration: none;
+}
+
+.clip .navbottom li a:hover::before {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.clip .navbottom .menu {
+  position: absolute !important;
+  top: 32px;
+  width: 200px;
+  left: -53px;
+  z-index: 1;
+}
+
+.clip .navbottom .menu ul {
+  width: 100%;
+  height: 100%;
+}
+
+.clip .navbottom .menu ul li a {
+  color: black;
+  padding: 14px 44px;
+  display: block;
+  text-align: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-bottom: 1px solid black;
+}
+
+.clip .navbottom .menu ul li a:hover {
+  color: white;
+  background-color: #ee3131;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 200px;
+  position: relative;
+}
+
+footer .footerTop {
+  height: 100px;
+  width: 1140px;
+  position: absolute;
+  z-index: 2;
+  top: -10%;
+}
+
+footer .footerTop .footerTopFirst {
+  width: 33.33%;
+  height: 100%;
+  background: #2f2f2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footerTop .footerTopFirst h5 {
+  margin: 0;
+  color: white;
+}
+
+footer .footerTop .footerTopFirst p {
+  color: white;
+  margin: 0;
+}
+
+footer .footerTop .footerTopFirst i {
+  font-size: 42px;
+  color: white;
+  margin-right: 10px;
+}
+
+footer .footerTop .footerTopSecond {
+  width: 0;
+  height: 0px;
+  border-top: 51px solid transparent;
+  border-bottom: 51px solid transparent;
+  border-left: 57px solid #2f2f2f;
+  position: absolute;
+  top: 0;
+  left: 33.33%;
+  z-index: 2;
+}
+
+footer .footerTop .footerTopThird {
+  width: 33.33%;
+  height: 100%;
+  background: #d20022;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footerTop .footerTopThird h5 {
+  margin: 0;
+  color: white;
+}
+
+footer .footerTop .footerTopThird p {
+  color: white;
+  margin: 0;
+}
+
+footer .footerTop .footerTopThird i {
+  font-size: 42px;
+  color: white;
+  margin-right: 10px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+footer .footerTop .footerTopFourth {
+  width: 0;
+  height: 0px;
+  border-top: 51px solid transparent;
+  border-bottom: 51px solid transparent;
+  border-left: 57px solid #d20022;
+  position: absolute;
+  top: 0;
+  left: 66.66%;
+  z-index: 2;
+}
+
+footer .footerTop .footerTopFivth {
+  width: 33.33%;
+  height: 100%;
+  background: #ee3131;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footerTop .footerTopFivth h5 {
+  margin: 0;
+  color: white;
+}
+
+footer .footerTop .footerTopFivth p {
+  color: white;
+  margin: 0;
+}
+
+footer .footerTop .footerTopFivth i {
+  font-size: 42px;
+  color: white;
+  margin-right: 10px;
+}
+
+footer .content {
+  background: #06163a;
+  background-image: url(../image/footer_img.png);
+  height: 470px;
+}
+
+footer .footerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  padding-top: 100px;
+}
+
+footer .firstcol p {
+  color: white;
+}
+
+footer .firstcol .firstcolIcon {
+  width: 70%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .firstcol .firstcolIcon div {
+  height: 100%;
+  width: 18.5%;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .firstcol .firstcolIcon div i {
+  color: white;
+}
+
+footer .secondcol h3 {
+  color: white;
+}
+
+footer .secondcol ul {
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+footer .secondcol a {
+  color: white;
+}
+
+footer .secondcol a:hover {
+  text-decoration: none;
+}
+
+footer .thirdcol h3 {
+  color: white;
+}
+
+footer .thirdcol ul {
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+footer .thirdcol a {
+  color: white;
+}
+
+footer .thirdcol a:hover {
+  text-decoration: none;
+}
+
+footer .thirdcol p {
+  color: #999;
+}
+
+footer .fourthcol h3 {
+  color: white;
+}
+
+footer .fourthcol ul {
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+footer .fourthcol ul li {
+  border-bottom: dotted;
+  border-color: #999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .fourthcol span {
+  color: white;
+}
+
+footer .fourthcol span:hover {
+  text-decoration: none;
+}
+
+footer .footerBottom {
+  background: #030e28;
+}
+
+footer .footerBottom .footerBottomRow {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footerBottom .footerBottomRow p {
+  margin: 0;
+  color: white;
+}
+
+footer .footerBottom .footerBottomRow p .footerBottomSpan {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
